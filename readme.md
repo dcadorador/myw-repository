@@ -10,7 +10,7 @@ Via Composer
 $ composer require myw/modelrepository
 ```
 
-Add in the app/config.php in the providers array
+Add in the config/app.php in the providers array
 
 ```
 Myw\ModelRepository\ModelRepositoryServiceProvider::class
