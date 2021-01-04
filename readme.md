@@ -1,6 +1,6 @@
 # Model Repository
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+This is an internal package for Mind Yer Website, that will create the commands for creating the base and model repository classes that is commonly used in projects.
 
 ## Installation
 
