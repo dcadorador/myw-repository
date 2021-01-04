@@ -22,24 +22,6 @@ $ php artisan make:base-repository
 $ php artisan make:model-repository {name : Model(Singular)}
 ```
 
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
-
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
-
-## Security
-
-If you discover any security related issues, please email drew@mindyerwebsite.co.uk instead of using the issue tracker.
-
 ## Credits
 
 - [Drew Adorador][link-author]
