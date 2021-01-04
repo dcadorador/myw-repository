@@ -15,5 +15,8 @@
         "psr-4": {
             "Myw\\ModelRepository\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=5.6"
     }
 }
