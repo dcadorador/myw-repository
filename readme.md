@@ -10,6 +10,12 @@ Via Composer
 $ composer require myw/modelrepository
 ```
 
+Add in the app/config.php in the providers array
+
+```
+Myw\ModelRepository\ModelRepositoryServiceProvider::class
+```
+
 ## Usage
 
 This will create two console commands for creating the required files for using a repository pattern for the application.
