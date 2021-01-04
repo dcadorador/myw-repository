@@ -10,6 +10,8 @@ Via Composer
 $ composer require myw/modelrepository
 ```
 
+## Configuration
+
 Add in the config/app.php in the providers array
 
 ```
