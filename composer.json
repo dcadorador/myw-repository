@@ -8,7 +8,6 @@
             "email": "drew@mindyerwebsite.co.uk",
         }
     ],
-    "keywords": ["Laravel", "ModelRepository"],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6"
