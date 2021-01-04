@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Repositories;
+
+use Location;
+
+class DummyRepository extends BaseRepository
+{
+
+    public function __construct()
+    {
+        $this->model = new Dummy();
+    }
+
+}
