@@ -1,16 +1,18 @@
 {
     "name": "myw/modelrepository",
     "description": "This is an internal model repository package being used for development for the shopify applications.",
-    "license": "license",
+    "license": "MIT",
     "authors": [
         {
             "name": "Drew Adorador",
             "email": "drew@mindyerwebsite.co.uk",
-            "homepage": "https://mindyerwebsite.co.uk/"
         }
     ],
     "keywords": ["Laravel", "ModelRepository"],
     "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
     "autoload": {
         "psr-4": {
             "Myw\\ModelRepository\\": "src/"
