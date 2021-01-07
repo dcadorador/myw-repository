@@ -16,5 +16,13 @@
         "psr-4": {
             "Myw\\ModelRepository\\": "src/"
         }
-    }
-}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Myw\\ModelRepository\\ModelRepositoryServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }}
