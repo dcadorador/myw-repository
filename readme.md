@@ -1,6 +1,6 @@
-# Model Repository
+# MYW Model Repository
 
-This is an internal package for Mind Yer Website, that will create the commands for creating the base and model repository classes that is commonly used in projects.
+This is an internal package for Mind Yer Website, that will create the commands for creating the base and model repository classes that is commonly used in shopify projects.
 
 ## Installation
 
