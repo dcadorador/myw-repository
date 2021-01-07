@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Myw\\ModelRepository\\": "src/"
+            "myw\\ModelRepository\\": "src/"
         }
     },
     "extra": {

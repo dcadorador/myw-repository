@@ -1,6 +1,6 @@
 <?php
 
-namespace Myw\ModelRepository;
+namespace Myw\ModelRepository\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

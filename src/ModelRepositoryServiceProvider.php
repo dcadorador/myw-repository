@@ -2,6 +2,8 @@
 
 namespace Myw\ModelRepository;
 
+use Myw\ModelRepository\Commands\CreateModelRepository;
+use Myw\ModelRepository\Commands\CreateBaseRepository;
 use Illuminate\Support\ServiceProvider;
 
 class ModelRepositoryServiceProvider extends ServiceProvider
