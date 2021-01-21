@@ -2,6 +2,7 @@
 
 namespace App\Repositories;
 
+use Myw\ModelRepository\Http\Repositories\BaseRepository;
 use Location;
 
 class DummyRepository extends BaseRepository

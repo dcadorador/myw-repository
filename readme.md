@@ -23,9 +23,5 @@ Myw\ModelRepository\ModelRepositoryServiceProvider::class
 This will create two console commands for creating the required files for using a repository pattern for the application.
 
 ``` bash
-$ php artisan make:base-repository
-```
-
-``` bash
 $ php artisan make:model-repository {name : Model(Singular)}
 ```
