@@ -46,7 +46,12 @@ class CreateModelRepository extends Command
             return null;
         }
 
-        $location = $this->ask('What is the location of the Model? (e.g App\\Models or App) ');
+        $location = $this->ask('What is the location of the Model? (e.g App\\Models, default App\\) ');
+
+        if($location == '')
+        {
+            $location = 'App';
+        }
 
         if(!File::isDirectory(app_path() . '/Repositories'))
         {
