@@ -3,7 +3,7 @@
 namespace Myw\ModelRepository;
 
 use Myw\ModelRepository\Commands\CreateModelRepository;
-// use Myw\ModelRepository\Commands\CreateBaseRepository;
+use Myw\ModelRepository\Commands\CreateBaseRepository;
 use Illuminate\Support\ServiceProvider;
 
 class ModelRepositoryServiceProvider extends ServiceProvider
@@ -26,7 +26,7 @@ class ModelRepositoryServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->commands([
-            // CreateBaseRepository::class,
+            CreateBaseRepository::class,
             CreateModelRepository::class,
         ]);
     }
